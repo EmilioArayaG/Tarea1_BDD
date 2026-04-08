@@ -1,0 +1,19 @@
+USE ct_usm;
+
+INSERT INTO region (id_region, nombre_region) VALUES
+(1, 'Tarapacá'),
+(2, 'Antofagasta'),
+(3, 'Atacama'),
+(4, 'Coquimbo'),
+(5, 'Valparaíso'),
+(6, 'Libertador Gral. Bernardo O Higgins'),
+(7, 'Maule'),
+(8, 'Biobío'),
+(9, 'La Araucanía'),
+(10, 'Los Lagos'),
+(11, 'Aysén del Gral. Carlos Ibáñez del Campo'),
+(12, 'Magallanes y de la Antártica Chilena'),
+(13, 'Metropolitana de Santiago'),
+(14, 'Los Ríos'),
+(15, 'Arica y Parinacota'),
+(16, 'Ñuble');
