@@ -1,12 +1,5 @@
 USE ct_usm;
 
-
-SELECT 
-    (SELECT COUNT(*) FROM postulacion) AS total_postulaciones,
-    (SELECT COUNT(*) FROM empresa_externa) AS total_empresas,
-    (SELECT COUNT(*) FROM persona) AS total_personas,
-    (SELECT COUNT(*) FROM equipo_trabajo) AS total_asignaciones_equipo,
-    (SELECT COUNT(*) FROM etapa_cronograma) AS total_etapas;
 -- 1. Listado general de postulaciones.
 -- Responde a: Muestra un resumen general con los datos principales de cada postulacion, cruzando informacion de sedes, regiones y empresas.
 SELECT
