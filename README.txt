@@ -12,5 +12,4 @@ Instruciones para el correcto funcionamiento del programa:
 4.Luego para corroborar el correcto funcionamiento de la base de datos, ejecutamos el "consultas.sql" que nos dara varios casos para el funcionamiento de la base de datos. 
 
 Especificacion extra:
--Para las evidencias de la parte 5, nosotros decidimos utilizar la salida que de
-muestre el resultado correcto de cada una
+-Para las evidencias de la parte 5, nosotros decidimos utilizar la salida que demuestre el resultado correcto de cada una
