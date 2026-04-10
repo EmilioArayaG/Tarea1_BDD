@@ -10,3 +10,7 @@ Instruciones para el correcto funcionamiento del programa:
 2.Creamos las tablas de la base de datos, para esto tenemos que correr el "script_ddl.sql" asi creamos las tablas.
 3.Con las tablas creadas poblamos la base de datos ejecutando el "script_dml.sql", asi ya tendremos insertados los datos en las tablas.
 4.Luego para corroborar el correcto funcionamiento de la base de datos, ejecutamos el "consultas.sql" que nos dara varios casos para el funcionamiento de la base de datos. 
+
+Especificacion extra:
+-Para las evidencias de la parte 5, nosotros decidimos utilizar la salida que de
+muestre el resultado correcto de cada una
