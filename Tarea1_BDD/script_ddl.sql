@@ -81,7 +81,7 @@ CREATE TABLE etapa_cronograma (
     plazo_semanas INT NOT NULL,
     entregable VARCHAR(255) NOT NULL,
     postulacion_nro INT NOT NULL,
-    FOREIGN KEY (postulacion_nro) REFERENCES postulacion(postulacion_nro)
+    FOREIGN KEY (postulacion_nro) REFERENCES postulacion(postulacion_nro) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
 CREATE TABLE equipo_trabajo (

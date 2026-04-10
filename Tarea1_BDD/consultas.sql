@@ -56,7 +56,7 @@ SELECT
 FROM equipo_trabajo eq
 JOIN persona pe ON eq.rut_persona = pe.rut
 JOIN tipo_persona tp ON eq.id_tipo_per = tp.id_tipo_per
-WHERE eq.postulacion_nro = 1; -- Se puede cambiar este ID para probar con otras postulaciones
+WHERE eq.postulacion_nro = 101; -- Se puede cambiar este ID para probar con otras postulaciones
 
 
 -- 5. Empresas con postulaciones y convenio.
