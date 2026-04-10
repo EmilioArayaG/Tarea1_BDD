@@ -44,7 +44,7 @@ GROUP BY ti.descripcion;
 
 
 -- 4. Equipo de trabajo de una postulacion.
--- Responde a: Dado el N° de postulacion (ej. 101), lista todos los integrantes de su equipo de trabajo.
+-- Responde a: Dado el N° de postulacion (ej. 1), lista todos los integrantes de su equipo de trabajo.
 -- Nota: Se utiliza 'departamento_area' como representacion de la sede del integrante, dado el modelo ER.
 SELECT
     pe.rut,
